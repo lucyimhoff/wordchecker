@@ -20,6 +20,18 @@ public class Main{
     WordChecker y = new WordChecker(testTwo);
     System.out.println(testTwo);
     System.out.println(y.isWordChain());
+    ArrayList<String> testThree = new ArrayList<String>();
+    testThree.add("catch");
+    testThree.add("bobcat");
+    testThree.add("catchacat");
+    testThree.add("cat");
+    testThree.add("at");
+    WordChecker z = new WordChecker(testThree);
+    System.out.println(testThree);
+    System.out.println(z.createList("cat"));   
+    System.out.println(z.createList("catch")); 
+    System.out.println(z.createList("dog")); 
+    
 }
 }
 
